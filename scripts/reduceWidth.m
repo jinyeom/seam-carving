@@ -3,10 +3,7 @@ function O = reduceWidth(I, n)
 % seams n times.
 
   O = I; % output image
-  E = energy(I);
   for i = 1:n
-    [O E] = vcarve(O, E);
-    imshow(O);
-    imshow(E);
+    O = vcarve(O);
   end
 end
