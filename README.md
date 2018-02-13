@@ -1,2 +1,2 @@
 # seam-carving
-MATLAB implementation of seam carving algorithm
+Octave implementation of seam carving algorithm
